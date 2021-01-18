@@ -1,0 +1,237 @@
+0
+137th Street Yard
+
+1
+36th-38th Street Yard
+
+2
+60th Street Tunnel
+
+3
+60th Street Tunnel Connection (11th Street Connector)
+
+4
+AirTrain JFK
+
+5
+BMT 63rd Street Line
+
+6
+BMT Archer Avenue Line
+
+7
+BMT Astoria Line
+
+8
+BMT Brighton / Fourth Avenue Lines
+
+9
+BMT Brighton Line
+
+10
+BMT Broadway Line
+
+11
+BMT Canarsie Line
+
+12
+BMT Fourth Avenue Line
+
+13
+BMT Franklin Avenue Line
+
+14
+BMT Jamaica Line
+
+15
+BMT Myrtle Avenue Line
+
+16
+BMT Nassau Street Line
+
+17
+BMT Sea Beach Line
+
+18
+BMT West End Line
+
+19
+Beach Channel Drawbridge
+
+20
+CI Yard
+
+21
+CI Yard Shop Track
+
+22
+Chambers Street – World Trade Center / Park Place
+
+23
+Chrystie Street Connection
+
+24
+Clifton Yard
+
+25
+Concourse Yard connector
+
+26
+Downtown Hudson Tubes
+
+27
+East New York Yard
+
+28
+Fresh Pond Yard
+
+29
+Hammels Wye
+
+30
+IND 63rd Street Line
+
+31
+IND Archer Avenue Line
+
+32
+IND Concourse Line
+
+33
+IND Crosstown Line
+
+34
+IND Culver Line
+
+35
+IND Culver Live
+
+36
+IND Eighth Avenue Line
+
+37
+IND Eighth Avenue Line layup tracks
+
+38
+IND Fulton Street Line
+
+39
+IND Pitkin Yard Spur
+
+40
+IND Queens Boulevard Line
+
+41
+IND Rockaway Line
+
+42
+IND Sixth Avenue Line
+
+43
+IND/BMT Archer Avenue Lines
+
+44
+IRT 42nd Street Line
+
+45
+IRT 42nd Street Line - IRT Lexington Avenue Line connection
+
+46
+IRT Broadway-Seventh Avenue Line
+
+47
+IRT City Hall Loop
+
+48
+IRT Dyre Avenue Line
+
+49
+IRT Eastern Parkway Line
+
+50
+IRT Flushing Line
+
+51
+IRT Flushing Line (extension)
+
+52
+IRT Jerome Avenue Line
+
+53
+IRT Lenox Avenue Line
+
+54
+IRT Lexington Avenue Line
+
+55
+IRT Lexington Avenue Line (South Ferry Loop)
+
+56
+IRT New Lots Line
+
+57
+IRT Nostrand Avenue Line
+
+58
+IRT Pelham Line
+
+59
+IRT White Plains Road Line
+
+60
+Jamaica Yard
+
+61
+Lexington Avenue Tunnel
+
+62
+Linden Shops
+
+63
+MTA NYCTA IND Rlyd
+
+64
+Manhattan Bridge subway tracks
+
+65
+Montague Street Tunnel
+
+66
+New York Transit Museum
+
+67
+Non-revenue Transfer Track
+
+68
+Nycta Ind Rlyd
+
+69
+PATH
+
+70
+Rockaway Park Yard
+
+71
+Second Avenue Subway
+
+72
+St. George Tunnel
+
+73
+Staten Island Railway
+
+74
+Stillwell Yard
+
+75
+Uptown Hudson Tubes
+
+76
+West 96th Street Subway
+
+77
+Williamsburg Bridge subway tracks
+
+78
+Yard Leads
+
