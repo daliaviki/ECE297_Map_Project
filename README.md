@@ -6,4 +6,5 @@ This map can display regional map given raw [OpenStreetMap](http://wiki.openstre
 
 ![default_interface](https://github.com/nzcsx/ece297_map_project/blob/master/README_images/default_interface.png)
 
-This map can display regional map given raw [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) file.
+
+![overall_structure](https://github.com/nzcsx/ece297_map_project/blob/master/README_images/default_interface.png)
