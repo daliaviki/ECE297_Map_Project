@@ -15,7 +15,7 @@ The functionality and user interface of the map are implemented in the map funct
 There are two serialzed files and two api's for them respectively. StreetsDatabaseAPI.h (also called "layer 2 API") is more simplified and contains only streets informaiton. OSMDatabaseAPI.h (also called "layer 1 API") is less processed but contains more information (such as subways, points of interests, etc.) All functionalities are implemented in four milestones sequentially.
 
 ### Milestone 1
-'bool loadStreetsDatabaseBIN(std::string fn);'
+```bool loadStreetsDatabaseBIN(std::string fn);```
 This function interpretes the map name fn, then loads a {map}.streets.bin file. This function must be called before any other function in this API can be used. Returns true if the load succeeded, false if it failed.
 
 void closeStreetDatabase;
