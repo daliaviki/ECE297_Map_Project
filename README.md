@@ -12,4 +12,4 @@ The functionality and user interface of the map are implemented in the map funct
 
 ![overall_structure](https://github.com/nzcsx/ece297_map_project/blob/master/README_images/overall_strcuture.png)
 
-There are two serialzed files and two api's for them respectively. StreetsDatabaseAPI.h is more processed and contains only streets informaiton. OSMDatabaseAPI.h is less processed but contains more information (such as subways, points of interests, etc.)
+There are two serialzed files and two api's for them respectively. StreetsDatabaseAPI.h (also called "layer 2 API") is more simplified and contains only streets informaiton. OSMDatabaseAPI.h (also called "layer 1 API") is less processed but contains more information (such as subways, points of interests, etc.)
