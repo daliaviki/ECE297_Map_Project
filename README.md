@@ -15,16 +15,20 @@ The functionality and user interface of the map are implemented in the map funct
 There are two serialzed files and two api's for them respectively. StreetsDatabaseAPI.h (also called "layer 2 API") is more simplified and contains only streets informaiton. OSMDatabaseAPI.h (also called "layer 1 API") is less processed but contains more information (such as subways, points of interests, etc.) All functionalities are implemented in four milestones sequentially.
 
 ### Milestone 1
-bool loadStreetsDatabaseBIN(std::string fn);
+```bool load_map(std::string map_name);```
 
-void closeStreetDatabase;
+This function first interpretes the map name. The function then loads a {map}.streets.bin file, and saves all the data(streets, intersections, etc.) in data stuctures(std::vector, std::map, etc.) This function must be called before any other function in this API can be used. Returns true if the load succeeded, false if it failed.
 
-std::string getIntersectionName(IntersectionIndex intersectionIdx);
+```void closeStreetDatabase;```
 
-LatLon getIntersectionPosition(IntersectionIndex intersectionIdx);
+This function unloads a map and frees the memory used by the API. No other api calls can be made until the load function is called again for some map. You can only have one map open at a time.
 
-OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);
+```std::string getIntersectionName(IntersectionIndex intersectionIdx);```
 
-int getIntersectionStreetSegmentCount(IntersectionIndex intersectionIdx);
+```LatLon getIntersectionPosition(IntersectionIndex intersectionIdx);```
 
-StreetSegmentIndex getIntersectionStreetSegment(IntersectionIndex intersectionIdx, int segmentNumber);
+```OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);```
+
+```int getIntersectionStreetSegmentCount(IntersectionIndex intersectionIdx);```
+
+```StreetSegmentIndex getIntersectionStreetSegment(IntersectionIndex intersectionIdx, int segmentNumber);```
