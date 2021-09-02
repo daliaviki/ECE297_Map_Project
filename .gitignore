@@ -27,3 +27,6 @@ libstreetmap.a
 test_libstreetmap
 ezgl_example/
 perf.data
+libstreetmap/.vscode/c_cpp_properties.json
+libstreetmap/resources/.vs/ProjectSettings.json
+libstreetmap/resources/.vs/slnx.sqlite
