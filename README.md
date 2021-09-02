@@ -16,6 +16,7 @@ There are two serialzed files and two api's for them respectively. StreetsDataba
 
 ### Milestone 1
 ```bool load_map(std::string map_name);```
+
 This function first interpretes the map name. The function then loads a {map}.streets.bin file, and saves all the data(streets, intersections, etc.) in data stuctures(std::vector, std::map, etc.) This function must be called before any other function in this API can be used. Returns true if the load succeeded, false if it failed.
 
 ```void closeStreetDatabase;```
