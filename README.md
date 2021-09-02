@@ -16,17 +16,19 @@ There are two serialzed files and two api's for them respectively. StreetsDataba
 
 ### Milestone 1
 ```bool loadStreetsDatabaseBIN(std::string fn);```
+
 This function interpretes the map name fn, then loads a {map}.streets.bin file. This function must be called before any other function in this API can be used. Returns true if the load succeeded, false if it failed.
 
-void closeStreetDatabase;
+```void closeStreetDatabase;```
+
 This function unloads a map and frees the memory used by the API. No other api calls can be made until the load function is called again for some map. You can only have one map open at a time.
 
-std::string getIntersectionName(IntersectionIndex intersectionIdx);
+```std::string getIntersectionName(IntersectionIndex intersectionIdx);```
 
-LatLon getIntersectionPosition(IntersectionIndex intersectionIdx);
+```LatLon getIntersectionPosition(IntersectionIndex intersectionIdx);```
 
-OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);
+```OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);```
 
-int getIntersectionStreetSegmentCount(IntersectionIndex intersectionIdx);
+```int getIntersectionStreetSegmentCount(IntersectionIndex intersectionIdx);```
 
-StreetSegmentIndex getIntersectionStreetSegment(IntersectionIndex intersectionIdx, int segmentNumber);
+```StreetSegmentIndex getIntersectionStreetSegment(IntersectionIndex intersectionIdx, int segmentNumber);```
