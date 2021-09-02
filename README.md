@@ -16,10 +16,15 @@ There are two serialzed files and two api's for them respectively. StreetsDataba
 
 ### Milestone 1
 bool loadStreetsDatabaseBIN(std::string fn);
+
 void closeStreetDatabase;
 
 std::string getIntersectionName(IntersectionIndex intersectionIdx);
+
 LatLon getIntersectionPosition(IntersectionIndex intersectionIdx);
+
 OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);
+
 int getIntersectionStreetSegmentCount(IntersectionIndex intersectionIdx);
+
 StreetSegmentIndex getIntersectionStreetSegment(IntersectionIndex intersectionIdx, int segmentNumber);
