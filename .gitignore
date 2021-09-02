@@ -30,3 +30,5 @@ perf.data
 libstreetmap/.vscode/c_cpp_properties.json
 libstreetmap/resources/.vs/ProjectSettings.json
 libstreetmap/resources/.vs/slnx.sqlite
+*.json
+libstreetmap/resources/.vs/resources/v16/.suo
