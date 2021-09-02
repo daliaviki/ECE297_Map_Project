@@ -19,13 +19,17 @@ There are two serialzed files and two api's for them respectively. StreetsDataba
 
 This function first interpretes the map name. The function then loads a {map}.streets.bin file, and saves all the data(streets, intersections, etc.) in data stuctures(std::vector, std::map, etc.) This function must be called before any other function in this API can be used. Returns true if the load succeeded, false if it failed.
 
-```void closeStreetDatabase;```
+```void close_map();```
 
-This function unloads a map and frees the memory used by the API. No other api calls can be made until the load function is called again for some map. You can only have one map open at a time.
+This function first clear and delete all data stuctures. The function then unloads a map and frees the memory used by the API. No other api calls can be made until the load function is called again for some map. You can only have one map open at a time.
 
-```std::string getIntersectionName(IntersectionIndex intersectionIdx);```
+```double find_distance_between_two_points(std::pair<LatLon, LatLon> points);```
 
-```LatLon getIntersectionPosition(IntersectionIndex intersectionIdx);```
+The function first converts latitudes and longitudes to XY coordinates by calling helpe function ```std::pair<XY_,XY_> LatLon_to_XY(std::pair<LatLon,LatLon> points)```, then calculate the distance between two points.
+
+```double find_street_segment_length(int street_segment_id);```
+
+The function first retrieves segment data by calling api function ```InfoStreetSegment getInfoStreetSegment(StreetSegmentIndex streetSegmentIdx);```. The function then checks all curve points on the segment, calculates length between each two curve points, then sums all lengths. 
 
 ```OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);```
 
