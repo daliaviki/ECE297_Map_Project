@@ -23,16 +23,18 @@ This function first interpretes the map name. The function then loads a {map}.st
 
 This function first clear and delete all data stuctures. The function then unloads a map and frees the memory used by the API. No other api calls can be made until the load function is called again for some map. You can only have one map open at a time.
 
-```double find_distance_between_two_points(std::pair<LatLon, LatLon> points);```
-
-The function first converts latitudes and longitudes to XY coordinates by calling helpe function ```std::pair<XY_,XY_> LatLon_to_XY(std::pair<LatLon,LatLon> points)```, then calculate the distance between two points.
+```double find_distance_between_two_points(std::pair<LatLon, LatLon> points);``
 
 ```double find_street_segment_length(int street_segment_id);```
 
-The function first retrieves segment data by calling api function ```InfoStreetSegment getInfoStreetSegment(StreetSegmentIndex streetSegmentIdx);```. The function then checks all curve points on the segment, calculates length between each two curve points, then sums all lengths. 
+```double find_street_segment_travel_time(int street_segment_id);```
 
-```OSMID getIntersectionOSMNodeID(IntersectionIndex intersectionIdx);```
+```int find_closest_intersection(LatLon my_position);```
 
-```int getIntersectionStreetSegmentCount(IntersectionIndex intersectionIdx);```
+```int find_closest_POI(LatLon my_position);```
 
-```StreetSegmentIndex getIntersectionStreetSegment(IntersectionIndex intersectionIdx, int segmentNumber);```
+```std::vector<int> find_street_segments_of_intersection(int intersection_id);```
+
+```std::vector<std::string> find_street_names_of_intersection(int intersection_id);```
+
+```bool are_directly_connected(std::pair<int, int> intersection_ids);```
