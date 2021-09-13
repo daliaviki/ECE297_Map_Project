@@ -37,10 +37,19 @@ This function acts as an overall destructor function. The function first clear a
 
 In this milestone, we implemented graphic interface related functions. The user interface window is drawn using Glade. The functionalities of the widgets on the interface are implemented using GTK toolkit. 
 
+[insert glade screenshot]
+
 We first visualized the map by ploting all the street segments, intersections, lakes and greenspace. We set street segments as white lines, intersections as white dots, lakes and greenspace as blue and green polygons respectively. To optimize the display, the function ```draw_features``` draws more detail when the map is more zoomed-in. 
 
 We then programmed some interactive widgets (e.g. click on the segments/intersections to reveal names). The program moniters trigger events. When a trigger event happens,  corresponding callback functions are called. We were provided an EZGL library to help us on the development.
 
 ### Milestone 3
 
+In this milestone, we implemented wayfindinf algorithms. A star and Dijkstra. 
 
+    std::vector<StreetSegmentIndex> find_path_between_intersections(
+		const IntersectionIndex intersect_id_start, 
+        const IntersectionIndex intersect_id_end,
+        const double turn_penalty);
+
+In this function, we used 
